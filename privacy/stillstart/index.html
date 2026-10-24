@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy — StillStart · Omniwin Limited</title>
+  <meta name="description" content="Privacy Policy for StillStart, an iOS app by Omniwin Limited.">
+  <!-- Unlisted ASC SoT: not linked from theomniwin.com homepage. -->
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+  <meta property="og:title" content="Privacy Policy — StillStart">
+  <meta property="og:description" content="Privacy Policy for StillStart by Omniwin Limited.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://theomniwin.com/privacy/stillstart">
+  <meta property="og:locale" content="en_HK">
+  <link rel="canonical" href="https://theomniwin.com/privacy/stillstart">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;450;500;600&display=swap" rel="stylesheet">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='50' fill='%234A7C59'/%3E%3C/svg%3E">
+  <style>
+    :root {
+      --bg: #faf9f6;
+      --bg-elevated: #ffffff;
+      --text: #1c1c1e;
+      --text-muted: #6e6e73;
+      --accent: #4a7c59;
+      --accent-hover: #3a6347;
+      --accent-soft: rgba(74, 124, 89, 0.08);
+      --hairline: #e8e6e1;
+      --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.03);
+      --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.05);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html {
+      font-size: 16px;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    body {
+      font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      background-image:
+        radial-gradient(circle at 20% 10%, rgba(74, 124, 89, 0.05) 0%, transparent 35%),
+        radial-gradient(circle at 80% 90%, rgba(120, 150, 120, 0.04) 0%, transparent 30%);
+      pointer-events: none;
+      z-index: -1;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    header {
+      padding: 2rem 0 0.5rem;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.75rem;
+      color: var(--text);
+    }
+
+    .brand-mark {
+      width: 32px;
+      height: 32px;
+      border-radius: 10px;
+      background-color: var(--accent);
+      display: grid;
+      place-items: center;
+      flex-shrink: 0;
+    }
+
+    .brand-mark svg {
+      width: 18px;
+      height: 18px;
+      stroke: white;
+      stroke-width: 2;
+      fill: none;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .brand-name {
+      font-weight: 600;
+      font-size: 1rem;
+      letter-spacing: -0.01em;
+    }
+
+    .brand-sub {
+      display: block;
+      font-weight: 400;
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      letter-spacing: 0;
+      margin-top: 0.1rem;
+    }
+
+    main {
+      padding: 1.5rem 0 4rem;
+    }
+
+    .doc-card {
+      background: var(--bg-elevated);
+      border: 1px solid var(--hairline);
+      border-radius: 16px;
+      box-shadow: var(--shadow-sm), var(--shadow-md);
+      padding: 2rem 1.75rem 2.5rem;
+    }
+
+    @media (min-width: 640px) {
+      .doc-card { padding: 2.5rem 2.75rem 3rem; }
+    }
+
+    .eyebrow {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 500;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--accent);
+      background: var(--accent-soft);
+      padding: 0.35rem 0.65rem;
+      border-radius: 999px;
+      margin-bottom: 1rem;
+    }
+
+    h1 {
+      font-size: clamp(1.75rem, 4vw, 2.125rem);
+      font-weight: 600;
+      letter-spacing: -0.03em;
+      line-height: 1.2;
+      margin-bottom: 0.5rem;
+    }
+
+    .meta {
+      color: var(--text-muted);
+      font-size: 0.9375rem;
+      margin-bottom: 1.75rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid var(--hairline);
+    }
+
+    .lede {
+      font-size: 1.0625rem;
+      color: var(--text);
+      margin-bottom: 1rem;
+    }
+
+    .lede + .lede { margin-top: 0; }
+
+    h2 {
+      font-size: 1.125rem;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      margin: 2rem 0 0.75rem;
+      scroll-margin-top: 1.5rem;
+    }
+
+    h3 {
+      font-size: 1rem;
+      font-weight: 600;
+      margin: 1.25rem 0 0.5rem;
+      color: var(--text);
+    }
+
+    p { margin-bottom: 0.85rem; }
+
+    ul {
+      margin: 0.5rem 0 1rem 1.25rem;
+    }
+
+    li { margin-bottom: 0.4rem; }
+
+    a {
+      color: var(--accent);
+      text-decoration-thickness: 1px;
+      text-underline-offset: 0.15em;
+    }
+
+    a:hover { color: var(--accent-hover); }
+
+    strong { font-weight: 600; }
+
+    address {
+      font-style: normal;
+      margin: 0.5rem 0 1rem;
+      line-height: 1.7;
+    }
+
+    .contact-block {
+      background: var(--accent-soft);
+      border-radius: 12px;
+      padding: 1.25rem 1.35rem;
+      margin-top: 0.75rem;
+    }
+
+    .contact-block p:last-child { margin-bottom: 0; }
+
+    footer {
+      padding: 0 0 3rem;
+    }
+
+    .footer-inner {
+      border-top: 1px solid var(--hairline);
+      padding-top: 1.25rem;
+      color: var(--text-muted);
+      font-size: 0.8125rem;
+    }
+
+    .footer-inner p { margin-bottom: 0.35rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <!-- Brand is text-only: no link to homepage (Owner lock — ASC SoT, unlisted). -->
+      <div class="brand" aria-label="Omniwin Limited">
+        <div class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M12 3v18M5 8h14M5 16h14"/></svg>
+        </div>
+        <div>
+          <span class="brand-name">Omniwin Limited</span>
+          <span class="brand-sub">StillStart · Privacy</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <article class="doc-card" lang="en">
+        <span class="eyebrow">Legal</span>
+        <h1>Privacy Policy — StillStart</h1>
+        <p class="meta"><strong>Effective date:</strong> 25 October 2026 (Asia/Hong_Kong)</p>
+
+        <p class="lede"><strong>StillStart</strong> (“the App”) is provided by <strong>Omniwin Limited</strong> (“Omniwin,” “we,” “us”), a company incorporated in Hong Kong.</p>
+        <p class="lede">This Privacy Policy explains what information is involved when you use StillStart on iOS in its current <strong>Mode B</strong> form: a <strong>local-first</strong> one-task deck and focus timer, with optional <strong>in-app purchases</strong> through Apple.</p>
+        <p class="lede">It applies <strong>only to StillStart</strong>. It does <strong>not</strong> cover other Omniwin products or websites unless those products link to their own policies.</p>
+        <p>If you do not agree with this Policy, do not use the App.</p>
+
+        <h2 id="who">1. Who we are</h2>
+        <address>
+          <strong>Omniwin Limited</strong><br>
+          21/F CMA Building<br>
+          64 Connaught Road Central<br>
+          Hong Kong<br>
+          Company No. / BRN: <strong>78954807</strong>
+        </address>
+        <p><strong>StillStart support / privacy contact:</strong> <a href="mailto:contact@theomniwin.com">contact@theomniwin.com</a></p>
+
+        <h2 id="what">2. What StillStart is (and is not)</h2>
+        <p>StillStart is a <strong>productivity utility</strong>. It is <strong>not</strong> a medical device, therapy, diagnosis tool, or treatment for any condition. Public descriptions of the App are <strong>utility-only</strong>.</p>
+        <p>The App is intended for <strong>adults (18+)</strong>. It is <strong>not</strong> directed at children and is <strong>not</strong> offered in Apple’s Kids Category.</p>
+
+        <h2 id="on-device">3. Information that stays on your device</h2>
+        <p>By design, your <strong>deck cards, timer/session history, settings, and 18+ attestation</strong> are stored <strong>locally on your device</strong> (on-device database). Omniwin does <strong>not</strong> operate a StillStart cloud account or cloud backup for this Mode B release.</p>
+        <p>Uninstalling the App, clearing App data, or using <strong>Delete everything on this device</strong> in Settings removes that local content from the device (subject to ordinary device backups you control, such as your own iCloud/device backups).</p>
+
+        <h2 id="may-leave">4. Information that may leave your device</h2>
+
+        <h3 id="iap">4.1 Apple In-App Purchases and RevenueCat</h3>
+        <p>If you buy or restore a subscription or other in-app purchase:</p>
+        <ul>
+          <li><strong>Apple</strong> processes the payment and related App Store account / receipt information under Apple’s terms and privacy policy.</li>
+          <li>We use <strong>RevenueCat</strong> to manage entitlements and restore purchases. RevenueCat may process purchase-related identifiers and entitlement status so the App can unlock paid features. See RevenueCat’s privacy documentation for its processing role.</li>
+        </ul>
+        <p>Omniwin does <strong>not</strong> receive your full payment card number through StillStart.</p>
+
+        <h3 id="support">4.2 Support email</h3>
+        <p>If you email us (including via in-App email to <strong>contact@theomniwin.com</strong>), we receive the content of that message, your email address, and any attachments you include, so we can respond. Keep medical or sensitive health details out of support mail unless you choose to send them; StillStart is not a clinical service.</p>
+
+        <h3 id="export">4.3 Export</h3>
+        <p>If you use <strong>Export deck</strong>, the App creates a local file (or share payload) of your deck data that <strong>you</strong> choose where to send (Files, AirDrop, another app, etc.). Omniwin does not receive that export unless <strong>you</strong> deliberately send it to us.</p>
+
+        <h3 id="not-collect">4.4 What we do <strong>not</strong> collect in this Mode B build</h3>
+        <p>On the current App Store binary this Policy describes, StillStart does <strong>not</strong> include separate product-analytics, advertising, or crash-reporting SDKs (for example PostHog, Sentry, or Firebase Analytics/Crashlytics), does <strong>not</strong> use App Tracking Transparency / IDFA for cross-app tracking, and does <strong>not</strong> require a StillStart login or cloud sync.</p>
+        <p>If we add analytics, crash reporting, accounts, or cloud sync later, we will update this Policy and App Store privacy labels <strong>before</strong> relying on that change in a public release.</p>
+
+        <h2 id="use">5. How we use information</h2>
+        <p>We use information only to:</p>
+        <ul>
+          <li>provide and improve StillStart’s local features;</li>
+          <li>process and restore in-app purchases / entitlements;</li>
+          <li>respond to support requests;</li>
+          <li>meet legal obligations and protect Omniwin Limited, users, and the App against abuse or fraud.</li>
+        </ul>
+        <p>We do <strong>not</strong> sell your personal information.</p>
+
+        <h2 id="sharing">6. Sharing</h2>
+        <p>We share information only as needed with:</p>
+        <ul>
+          <li><strong>Apple</strong> (App Store / IAP);</li>
+          <li><strong>RevenueCat</strong> (entitlement / purchase tooling);</li>
+          <li>service providers who host our email or corporate systems, under appropriate arrangements;</li>
+          <li>authorities when required by law.</li>
+        </ul>
+        <p>We do <strong>not</strong> share StillStart user data with Samakasa, PremioKey, or other Omniwin product stacks for their marketing.</p>
+
+        <h2 id="retention">7. Retention</h2>
+        <ul>
+          <li><strong>On-device data:</strong> retained until you delete it, clear App data, or uninstall (plus any device backups you control).</li>
+          <li><strong>Support emails:</strong> retained as long as needed to handle your request and our ordinary business / legal records.</li>
+          <li><strong>Purchase / entitlement records:</strong> retained as needed to provide the subscription, prevent fraud, and meet accounting/tax/App Store requirements (often via Apple and RevenueCat systems).</li>
+        </ul>
+
+        <h2 id="choices">8. Your choices</h2>
+        <ul>
+          <li>Use the App offline for core deck/timer features (purchases and restore need network / App Store).</li>
+          <li>Export your deck from Settings.</li>
+          <li>Delete local App data from Settings (<strong>Delete everything on this device</strong>).</li>
+          <li>Manage or cancel Apple subscriptions in your Apple ID subscription settings (and via the App’s Plan / Manage path where available).</li>
+          <li>Contact <a href="mailto:contact@theomniwin.com">contact@theomniwin.com</a> for privacy questions about StillStart.</li>
+        </ul>
+        <p>Hong Kong users may have rights under the Personal Data (Privacy) Ordinance (Cap. 486) regarding personal data we hold. Contact us to make a request. Some requests may be limited where we do not hold the data (for example, purely on-device content we never received).</p>
+
+        <h2 id="international">9. International processing</h2>
+        <p>Apple and RevenueCat may process purchase-related data in countries outside Hong Kong. Where we transfer personal data, we take steps appropriate to the context and applicable law.</p>
+
+        <h2 id="children">10. Children’s privacy</h2>
+        <p>StillStart is for users <strong>18 years or older</strong>. We do not knowingly collect personal data from children through StillStart. If you believe a child has provided personal data to us by email, contact <a href="mailto:contact@theomniwin.com">contact@theomniwin.com</a> and we will take appropriate steps.</p>
+
+        <h2 id="changes">11. Changes</h2>
+        <p>We may update this Policy. The <strong>Effective date</strong> at the top will change when we do. Material changes that affect how StillStart handles data will be reflected in the App Store privacy labels and this URL before a release that relies on them.</p>
+
+        <h2 id="contact">12. Contact</h2>
+        <div class="contact-block">
+          <p><strong>Omniwin Limited</strong> — StillStart</p>
+          <p>Email: <a href="mailto:contact@theomniwin.com">contact@theomniwin.com</a></p>
+          <p>Postal: 21/F CMA Building, 64 Connaught Road Central, Hong Kong</p>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <p>© 2026 Omniwin Limited. Hong Kong.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
